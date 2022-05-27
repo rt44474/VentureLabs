@@ -15,6 +15,8 @@ There are 5 endpoins:
 - new entry
 - new user
 - delete entry
+
+
 Everyone can get list of blogs (http://domain/blog).
 Also everyone can try to log in (http://domain/blog?action=login&user=admin&password=admin).
 To create new blog/new entry(http://domain/blog?action=new&text=testtext) you need to authenticate via HttpBasic.
