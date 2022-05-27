@@ -23,8 +23,8 @@ Also everyone can try to log in (http://domain/blog?action=login&user=admin&pass
 
 To create new blog/new entry(http://domain/blog?action=new&text=testtext) you need to authenticate via HttpBasic.
 
-To create a new user(http://domain/blog?
-action=new_user&username=test&password=test&permission=superuser&readonly=yes) you need to authenticate via HttpBasic and have permission superuser.
+To create a new user(http://domain/blog?action=new_user&username=test&password=test&permission=superuser&readonly=yes)
+you need to authenticate via HttpBasic and have permission superuser.
 
 To delete an blog/entry(http://domain/blog?action=delete&id=1) you need to authenticate via HttpBasic and this entry needs to be yours i.e. 
 user_id in blog must be your id.
