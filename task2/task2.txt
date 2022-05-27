@@ -1,0 +1,47 @@
+Task 2a
+
+I see problem in using different prices and city/country,
+it could be divided into three tables, one for German,
+second for English and third for French. It would speed up
+the process of finding insurance for specific country/city.
+Also extra could be splitted into columns, instead of 
+name, price Euro, price USD, it could have extra_name, extra_price_euro,
+extra_price_usd.
+Same for insurance instead of name, price Euro, price USD, it could
+have insurance_name, insurance_price_euro, insurance_price_usd.
+
+Task 2b
+
+id - int
+city - varchar
+city_en - varchar
+city_fr - varchar
+country - varchar
+country_en - varchar
+country_fr - varchar
+extra - varchar
+extra1 - varchar
+extra2 - varchar
+insurance - varchar
+insurance1 - varchar
+insurance2 - varchar
+price_eur - float
+price_usd - float
+camper - varchar
+
+Task 2c
+
+Index is an column that provides speed in searching data in table.
+Index should be unique, unchangeable, nonnull, so if we want to search
+one thing we can use index to get it. In this example I would use 
+id as an index, beacuse its auto incremented so each offer created
+will have their index different from others.
+
+Task 2d
+
+Foreign key is a column in table that refer to primary key in other
+table. We should use them if we want to create relation between tables,
+if table doesnt have any relation we shouldnt use them.
+
+In this example I wouldn't use foreign key, beacuse there are no
+relations.
