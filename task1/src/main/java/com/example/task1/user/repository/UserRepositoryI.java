@@ -1,4 +1,9 @@
 package com.example.task1.user.repository;
 
-public interface UserRepositoryI {
+import com.example.task1.user.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepositoryI extends JpaRepository<User, Long> {
+
+    User findUserByUsername(String username);
 }
